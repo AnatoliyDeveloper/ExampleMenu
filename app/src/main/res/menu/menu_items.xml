@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/settings"
+        android:orderInCategory="1"
+        android:title="@string/item_settings"
+        android:showAsAction="never" />
+
+    <item
+        android:id="@+id/about"
+        android:orderInCategory="2"
+        android:onClick="onAbout"
+        android:title="@string/item_about"
+        android:showAsAction="always" />
+
+    <item
+        android:id="@+id/site"
+        android:orderInCategory="3"
+        android:title="@string/item_site"
+        android:showAsAction="never" />
+
+</menu>
